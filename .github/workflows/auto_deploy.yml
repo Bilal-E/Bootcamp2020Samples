@@ -30,4 +30,4 @@ jobs:
     - name: Installing Surge
       run: npm install --global surge
     - name: Deploying using Surge
-      run: surge ./ bootcamp2020bilale.surge.sh --token $ {{ secrets.SURGE_TOKEN1 }}
+      run: surge ./ resonant-regret.surge.sh --token $ "155034662ba396fe7b06ace0346e8575"
